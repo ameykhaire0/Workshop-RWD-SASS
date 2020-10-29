@@ -1,0 +1,19 @@
+footer {
+  width: $width;
+  height: 10em;
+  background-color: $yellow;
+  text-align: center;
+  .title {
+    font-size: 3em;
+    color: $blue;
+    margin-top: 10px;
+  }
+  .sub {
+    font-size: 1.7em;
+    color: $blue;
+    opacity: 0.8;
+  }
+  .legal {
+    margin-top: auto;
+  }
+}

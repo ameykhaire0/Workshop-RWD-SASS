@@ -1,0 +1,74 @@
+.col1 {
+  width: 30%;
+  margin-right: 10px;
+  .team-description {
+    .team {
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: unquote(nth($shadows, 5));
+      margin-bottom: 20px;
+      .title {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+      }
+      .sub {
+        font-size: 1em;
+        opacity: 0.8;
+        margin-bottom: 5px;
+      }
+    }
+    .team-container {
+      .member {
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-shadow: unquote(nth($shadows, 5));
+        .photo {
+          max-width: 100px;
+          border-radius: 50%;
+
+          box-shadow: unquote(nth($shadows, 3));
+        }
+        .name {
+          font-size: 1.5em;
+          margin: 15px;
+          padding: 15px;
+        }
+      }
+    }
+  }
+
+  .videos {
+    margin-top: 10px;
+    box-shadow: unquote(nth($shadows, 5));
+    padding: 15px;
+    border-radius: 10px;
+    .title {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+    .list {
+      .item {
+        margin-bottom: 5px;
+        .links {
+          margin: 0 5px;
+          color: $blue;
+          opacity: 0.8;
+          &:hover {
+            background-color: $yellow;
+            opacity: 1;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col1 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+header {
+  @include flex;
+  @include flex-col;
+  width: $width;
+  height: 5em;
+  padding: 10px 0;
+  margin: auto;
+  text-align: center;
+  .heading {
+    font-size: 2em;
+    color: $blue;
+    padding: 2px 0;
+  }
+  .sub-heading {
+    opacity: 0.8;
+  }
+}

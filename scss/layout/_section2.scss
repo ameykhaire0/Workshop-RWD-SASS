@@ -1,0 +1,33 @@
+.col2 {
+  width: 70%;
+  .blog-container {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: unquote(nth($shadows, 7));
+    .align-left {
+      margin-right: 20px;
+      .img {
+        max-width: 200px;
+        border-radius: 10px;
+        box-shadow: unquote(nth($shadows, 4));
+      }
+    }
+    .align-right {
+      .title {
+        font-size: 2em;
+      }
+      .desc {
+        font-size: 1.2em;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col2 {
+    width: 100%;
+  }
+}
