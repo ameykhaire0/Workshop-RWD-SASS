@@ -81,6 +81,8 @@ header {
       cursor: pointer;
       opacity: 1; }
     .nav .hamburger div {
+      width: fit-content; }
+    .nav .hamburger div > div {
       height: 5px;
       width: 40px;
       margin: 6px;
